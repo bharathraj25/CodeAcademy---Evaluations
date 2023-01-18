@@ -1,0 +1,22 @@
+{
+  "name": "codeacademy---evaluations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathraj25/CodeAcademy---Evaluations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharathraj25/CodeAcademy---Evaluations/issues"
+  },
+  "homepage": "https://github.com/bharathraj25/CodeAcademy---Evaluations#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
