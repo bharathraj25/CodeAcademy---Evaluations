@@ -39,3 +39,24 @@ const getScoresByFrames = eachBallScores => {
 
   return frameScore;
 }
+
+const input = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10]
+console.log(getScoresByFrames(input));
+
+const getTotalScore = eachBallScores => {
+  const frameScore = getScoresByFrames(eachBallScores);
+  let bestScore = 0, totalScore = 0;
+  frameScore.forEach(frame => {
+
+    const sum = getSumOfArray(frame)
+    switch(getFrameStatus(frame)) {
+      case 0: {
+        totalScore += sum
+        bestScore < sum? bestScore = sum: bestScore
+      }
+      case 1: {
+
+      }
+    }
+  })
+}
